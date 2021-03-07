@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.items-container {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-right: 1%;
+}
+.div-per-item {
+  width: 49.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: gray;
+}
+.div-img {
+  width: 40%;
+}
+.div-name-price {
+  width: 59%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.div-name-price {
+  padding: 5px;
+  background-color: lightgray;
+}
+.img {
+  width: 100%;
+}
+strong,
+small,
+.input-quantity {
+  width: 100%;
+  text-align: center;
+}
+.div-name-price button {
+  width: 100%;
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  background-color: rgba(235, 129, 8, 0.945);
+  color: white;
+}
+
+/*ADD ITEM FORM  */
+
+.add-item-container {
+  width: 95%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: gray;
+}
+.add-item-text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.add-item-text button {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border: none;
+  outline: none;
+}
+#save-btn {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .items-container {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-right: 1%;
+  }
+  .div-per-item {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: gray;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .items-container {
+    width: 79%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1%;
+  }
+  .div-per-item {
+    width: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: gray;
+  }
+  .div-img,
+  .div-name-price {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-name-price {
+    padding: 5px;
+    background-color: lightgray;
+  }
+  .img {
+    width: 100%;
+  }
+  strong,
+  small,
+  .input-quantity {
+    width: 100%;
+    text-align: center;
+  }
+  .div-name-price button {
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(235, 129, 8, 0.945);
+    color: white;
+  }
+
+  /*ADD ITEM FORM  */
+
+  .add-item-container {
+    width: 50%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: gray;
+  }
+  .add-item-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .add-item-text button {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: none;
+    outline: none;
+  }
+  #save-btn {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+  }
+}

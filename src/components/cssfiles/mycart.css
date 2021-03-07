@@ -1,0 +1,137 @@
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+}
+.main-container-cart {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px 10px 20px 2px;
+  border-radius: 5px;
+  background-color: gray;
+}
+.div-order-text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.div-order-text h4 {
+  width: 80%;
+}
+.div-order-text button {
+  width: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.div-per-item-cart {
+  width: 33%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+.left-side-cart {
+  width: 50%;
+  padding: 5px;
+}
+#img-item-cart {
+  width: 100%;
+}
+.right-side-cart {
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: lightgray;
+}
+#subtotal {
+  width: 100%;
+  text-align: left;
+  padding: 10px 0 10px 5;
+  margin-top: 10px;
+  border-top: 1px solid black;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .div-per-item-cart {
+    width: 24%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+  }
+  .main-container-cart {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px 20px 2px;
+    border-radius: 5px;
+    background-color: gray;
+  }
+  .div-order-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .div-order-text h4 {
+    width: 80%;
+  }
+  .div-order-text button {
+    width: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .div-per-item-cart {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .left-side-cart {
+    width: 50%;
+    padding: 5px;
+  }
+  #img-item-cart {
+    width: 100%;
+  }
+  .right-side-cart {
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightgray;
+  }
+  #subtotal {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0 10px 5;
+    margin-top: 10px;
+    border-top: 1px solid black;
+  }
+}
