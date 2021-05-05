@@ -1,3 +1,5 @@
+
+This (React.js + Redux) app is a sample of resto app where customer can order, and admin can add, edit and delete items.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
